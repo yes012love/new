@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Nanum+Gothic&family=Play&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#wrap{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(228, 66, 66, 0.2);
+
+
+}
+
+header{
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hWrap{
+    position: relative;
+
+
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 500;
+
+}
+
+.hWrap .util ul{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(158, 49, 61);
+    display: flex;
+}
+
+.hWrap .util li{
+    margin-right: 30px;
+    font-size: 13px;
+
+}
+
+
+
+.gnbWrap{
+    display: flex;
+
+}
+
+
+.gnbWrap ul{
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    top: 50px;
+    font-weight: 900;
+
+}
+
+.gnbWrap li{
+    margin-right: 45px;
+
+}
+
+
+
+.gnbWrap span{
+    color: rgb(158, 49, 61);
+    font-size: 25px;
+}
+
+
+/* ============================================================================== */
+
+
+.menuWrap{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 120px;
+    margin-top: 20px;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+
+
+.menuWrap .pic{
+    position: absolute;
+
+    display: flex;
+    animation-duration: 70s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-name: move;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+
+
+@keyframes move{
+
+    0%{left:0}
+    100%{left:-13200px}
+}
+
+
+/* =========================효과!!!!!!============= */
+.menuWrap .pic img{
+    padding-top: 20px;
+    width: 350px;
+    /* animation: movement 20s linear infinite; */
+    /* 이거 아닌가......????............................... */
+
+}
+
+/* img 옆으로 슬라이드~~ 자동으로 넘어가고 마우스 갖다대면 멈추....=>이건안... */
+
+
+
+
+/* ================================================================================ */
+
+
+.submainBn{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rosybrown;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 25px;
+
+}
+
+.submainBn .pic{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+
+/* =============================각자 시작 시간 다르게 통통통================== */
+/* ==============효과!!!!!!!!!!!!!!!!!!!========================================== */
+
+.submainBn .pic .pic1{
+    position: relative;
+
+    /* animation-name: pic1; */
+    animation: pic1 1.2s ease-out infinite alternate;
+    
+    }
+
+    @keyframes pic1{
+        0%{top: 30px;}
+        100%{top: 0;}
+    }
+
+    .submainBn .pic .pic2{
+        position: relative;
+    
+        /* animation-name: pic2; */
+        animation: pic2 1.2s ease-in infinite alternate;
+        
+        }
+    
+        @keyframes pic2{
+            0%{top: 0;}
+            100%{top: 30px;}
+        }
+        .submainBn .pic .pic3{
+            position: relative;
+        
+            /* animation-name: pic3; */
+            animation: pic3 1.2s ease-out infinite alternate;
+            
+            }
+        
+            @keyframes pic3{
+                0%{top: 30px;}
+                100%{top: 0;}
+            }
+
+
+.Bnspace{
+   
+}
+
+.Bnspace .con{
+    margin-top: 50px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Bnspace .con h3{
+    text-align: center;
+    color:rgba(228, 66, 66, 0.2);
+}
+
+
+
+/* ============= mainBn ======== */
+
+.mainBn{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainBn img{
+    width: 100%;
+}
+
+.mainBn a{
+    width: 100%;
+}
+
+
+.Bnimg{
+    margin-bottom: 30px;
+}
+
+
+/* .pager{
+    text-align: center;
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%,-50%);
+
+    
+}
+
+
+.pager a{
+    background-color: rgb(198, 199, 195);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+
+} */
+
+
+
+
+
+
+/* ===================================================================== */
+.row{
+    height: 500px;
+
+    background-color: antiquewhite;
+
+
+}
+.row .con{
+    justify-content: space-between;
+    padding-top: 100px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.row .con .box h3{
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    transform: scale(1.2);
+    font-size: 24px;
+
+}
+
+
+
+
+.row .con{
+    display: flex;
+    width: 1200px;
+
+}
+
+
+.row .con .box{
+    width: 33.33%;
+}
+
+.row .con h3{
+    color: rgb(173, 57, 70);
+    margin-bottom: 20px;
+}
+
+.row .box .M{
+    width: 100%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+
+    
+}
+
+.row .box .M1 img{
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.row .con .box img{
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.row .con .box .vid{
+    width: 100%;
+    height: 100%;
+}
+
+.row .con iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.row .news{
+    text-align: center;
+}
+
+.row .news h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.row .news .nwsbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.row .news .nwsbox .box{
+    width: 50%;
+    text-align: center;
+}
+.row .news .nwsbox img{
+    width: 50%;
+    margin-bottom: 30px;
+
+
+}
+
+
+
+
+/* =================================================================== */
+.gal{
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+
+
+}
+.gWrap{
+    width: 1000px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.gWrap h2{
+}
+.gWrap .box{
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.gWrap .box img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+
+}
+
+.gWrap .box img:hover{
+    transform: scale(1.3);
+
+}
+
+
+
+/* ================================================================ */
+footer{
+    background-color: darkred;
+    height: 100px;
+    padding-bottom: 50px;
+
+}
+
+.fcon{
+}
+
+
+
+.fWrap{
+    width: 1000px;
+    margin:0 auto;
+    display: flex;
+}
+
+.fWrap .fcon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fWrap .sns{
+    display: flex;
+
+}
+.fWrap .sns i{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    margin-top: 30px;  
+    padding-right: 10px;
+}
+
+.fWrap .frn{
+    margin-left: 10px;
+
+}
+
+address{
+    font-style: normal;
+    color: rgb(211, 140, 140);
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.fcon .frn{
+    font-size: 20px;
+    color: rgb(204, 104, 104);
+    margin-top: 30px;
+    font-weight: bold;
+}

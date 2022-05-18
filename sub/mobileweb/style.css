@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Monoton&family=Nanum+Gothic&family=Play&family=Poor+Story&family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.mobile{
+    width: 390px;
+    height: 844px;
+    overflow: hidden;
+    position: relative
+}
+
+header{
+    height: 50px;
+    /* position: relative; */
+}
+
+header h1{
+    text-align: center;
+    /* background-color: blueviolet; */
+    line-height: 40px;
+    padding-top: 5px;
+}
+
+.allMenu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.allMenu span{
+    width: 24px;
+    height: 3px;
+    border-radius: 22px;
+    background-color: #ffa766;
+    margin: 0 auto 4px;
+    display: block;
+}
+
+.allMenu span:last-child{
+    margin-bottom: 0;
+}
+
+header .info{
+    background-color: transparent;
+    border: 0;
+
+}
+
+header .info img{
+    width: 40px;
+    right: 5px;
+    top: 5px;
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+/* =========== address */
+/* =========== address */
+/* =========== address */
+
+.add{
+    font-family: 'Poor Story', cursive;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-bottom: 1px solid #888;
+    position: relative;
+}
+
+.add p{
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    font-size: 20px;
+}
+
+.add .now{
+    font-family: 'Poor Story', cursive;
+
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    height: 30px;
+}
+
+
+
+
+
+
+/* ============== main */
+/* ============== main */
+/* ============== main */
+
+.main{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.main .con{
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.main .con h3{
+    font-family: 'Poor Story', cursive;
+    font-size: 27px;
+    color: #5fbabd;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.main .c1Logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .c1Logo .box{
+    text-align: center;
+    font-size: 13px;
+}
+
+.main .c1Logo .box .lg{
+    border-radius: 50%;
+
+}
+
+.main .c1Logo .box{
+
+
+
+}
+
+.main .c1Logo .box .image1{
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+    background-image: url(images/composelogo.png);
+
+
+
+}
+
+.main .c1Logo .box .image2{
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+    background-image: url(images/burgerkinglogo.png);
+
+}
+.main .c1Logo .box .image3{
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+    background-image: url(images/starbuckslogo.png);
+
+}
+.main .c1Logo .box .image4{
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+    background-image: url(images/takologo.png);
+
+}
+
+
+
+
+
+
+/* ======== */
+
+
+
+.main .c2Logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .c2Logo .box{
+    text-align: center;
+    font-size: 13px;
+}
+
+.main .c2Logo .box .lg{
+    border-radius: 50%;
+
+}
+
+.main .c2Logo .box .image1{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/composelogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+
+}
+
+.main .c2Logo .box .image2{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/burgerkinglogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+}
+.main .c2Logo .box .image3{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/starbuckslogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+}
+.main .c2Logo .box .image4{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/bhclogo_03.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+/* ============= */
+
+.main .c3Logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .c3Logo .box{
+    text-align: center;
+    font-size: 13px;
+}
+
+.main .c3Logo .box .lg{
+    border-radius: 50%;
+
+}
+
+.main .c3Logo .box .image1{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/bbqlogo_03.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+
+}
+
+.main .c3Logo .box .image2{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/kfclogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+}
+.main .c3Logo .box .image3{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/starbuckslogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+}
+.main .c3Logo .box .image4{
+    width: 80px;
+    height: 80px;
+    background-image: url(images/takologo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.main .box .loc{
+    background-image: url(images/mobile-mainpage_15.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    padding-left: 13px;
+    margin-bottom: 10px;
+}
+
+
+/* ========= */
+/* ========= */
+/* ========= */
+
+
+.ad{
+    margin-top: 100px;
+}
+
+.ad .new{
+    margin-bottom: 5px;
+
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+
+
+    position: relative;
+    
+}
+
+.ad .new img{
+    width: 100%;
+    opacity: 0.8;
+
+}
+
+
+.ad h4{
+    position: absolute;
+    top: 50px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+
+    z-index: 200;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px  black;
+}
+
+.ad p{
+    position: absolute;
+    top: 80px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+
+    z-index: 200;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px  black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================aside */
+/* ===========================aside */
+/* ===========================aside */
+/* ===========================aside */
+/* ===========================aside */
+/* ===========================aside */
+/* ===========================aside */
+
+aside{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+aside .close{
+    background-color: transparent;
+    border: none;
+
+}
+
+aside .close img{
+    width: 40px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+
+
+}
+
+
+
+
+aside .con{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside .con .myinfo{
+}
+
+aside .myinfo .mypic{
+    background-image: url(images/info.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+
+}
+
+aside .con .myinfo p{
+    margin-left: 40px;
+    font-family: 'Poor Story', cursive;
+    font-size: 30px;
+}
+
+aside .con .myinfo .point{
+    margin-left: 40px;
+    font-family: 'Poor Story', cursive;
+    font-size: 20px;
+    background-image: url(images/point_03.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+}
+
+aside .con .myinfo span{
+    color: #ffa766;
+    font-weight: 900;
+}
+
+aside .most{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #f7d852;
+    border-radius: 20px;
+    padding: 15px;
+    /* background-color: antiquewhite; */
+
+}
+
+aside .most h3{
+    font-size: 17px;
+}
+
+aside .most span{
+    font-family: 'Poor Story', cursive;
+
+    color: #ffa766;
+    background-color: beige;
+}
+
+aside .most .mMenu{
+    font-family: 'Poor Story', cursive;
+
+}
+
+aside .most .mMenu img{
+    width: 120px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
