@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400,600,650,700&display=swap');
+
+
+
+body{
+    margin: 0;
+    /* font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif; */
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 650;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(	https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    background-repeat: no-repeat;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 530px;
+    background-color: black;
+}
+
+.nav-item{
+    padding: 28px 17px;
+}
+
+.main-container{
+
+}
+
+.headline{
+    font-size: 136px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 220px;
+}
+.headline-first{
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline{
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area{
+    text-align: center;
+}
+
+.button-style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    color: #2941ab;
+    border: none;
+    font-size: inherit;
+    font-weight: 700;
+    border-radius: 500px;
+}
+
+.button-style:hover{
+    transform: scale(1.1);
+}
+
+
+.Fcontainer{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerboxes{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.Fbox1{
+    display: flex;
+    justify-content: ;
+}
+.Fbox1 img{
+    width: 130px;
+}
+
+.sub-part{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.footer-title{
+    color: #919496;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.under-title{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.Fbox2{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sns-box{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #222322;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+
+.fa-brands{
+
+    font-size: 24px;
+}
+
+.fa-earth-americas{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.city{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #919496;
+    margin-top: 80px;
+}
+
+.footerlast{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-line{
+    font-size: 12px;
+}
+
+.last-menu{
+    margin-right: 30px;
+    color: #919496;
+
+}
+
+.copyright{
+    font-size: 12px;
+    color: #919496;
+}
+.fa-copyright{
+    margin-right: 10px;
+}
