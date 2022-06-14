@@ -7,6 +7,8 @@
     <script src="https://kit.fontawesome.com/acfe1c41fb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="js/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
     <title>MY </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +20,7 @@
   <div class="main">
     <div class="mbox">  
       <span> Designer Han Hee Jeong</span>
-      <h1>I'm always looking for New Design</h1>
+      <h1>New Design looking for_   I'm always  </h1>
       <div class="mainsns">
         <a href="https://www.instagram.com/nfd_han/"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://blog.naver.com/mygod012love"><i class="fa-solid fa-blog"></i></a>
@@ -35,7 +37,7 @@
 
   <div class="sub">
     <div class="sbox">
-
+      <p>Please Click on the Picture</p>
     </div>
     <div class="container">
       <div class="sa sa-up"><a href="sub/hollys/index.html" class="site" target="_blank"><img src="images/muhollys.png" alt=""></a></div>
@@ -45,8 +47,33 @@
     </div>
   </div><!-- sub -->
 
+  <div class="sub"></div>
+  <div class="sub"></div>
+  <div class="sub"></div>
 
   
+  <div class="fade">
+    <div><img src="images/age20s_1.png" alt=""></div>
+    <div><img src="images/banner2.png" alt=""></div>
+    <div><img src="images/ddalgipongdang.png" alt=""></div>
+    <div><img src="images/instar.png" alt=""></div>
+    <div><img src="images/SONY-WH-1000XM4--2.png" alt=""></div>
+    <div><img src="images/SONY-WH-1000XM4-3.png" alt=""></div>
+    <div><img src="images/SONY-WH-1000XM4.png" alt=""></div>
+    <div><img src="images/sulhwasoo.png" alt=""></div>
+    <div><img src="images/thebodyshop.png" alt=""></div>
+    <div><img src="images/typo.png" alt=""></div>
+    <div><img src="images/spineeffect.png" alt=""></div>
+  </div>
+		
+  <div class="video">
+    <div><video autoplay controls loop muted><source src="video/library.mp4"></video></div>
+    <div><video src="video/ddarahae.mp4"></video></div>
+    <div><video src="video/selfmotion.mp4"></video></div>
+    <div><video src="video/soundcameraspoid.mp4"></video></div>
+    <div><video src="video/motionposter.mp4"></video></div>
+    <div><video src="video/sukgo.mp4"></video></div>
+  </div><!-- video -->
 
 
 
@@ -58,10 +85,33 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
     <script>
 
 
 
+$(document).ready(function(){
+
+  $('.fade').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+$('.video').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+	
+});
+	
 
 
 
