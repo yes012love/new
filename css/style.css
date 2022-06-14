@@ -116,3 +116,217 @@ a{
   display: flex;
   justify-content: space-around;
 }
+
+
+
+
+
+
+/* ===================== */
+#video{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--bg-color);
+  margin-top: 0.5em;
+  border-radius: 0.5em;
+}
+#video .vidWrap{
+padding:2em;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.vidItems{
+ width:48%;
+ height:300px;
+ border-radius: 0.5em;
+ box-sizing: border-box;
+ background-color:#fff;
+ overflow: hidden;
+ position: relative;
+ margin-bottom: 1em;
+}
+
+.vidItems figure{
+ height: 300px;
+ overflow: hidden;
+}
+
+
+.vidItems figcaption{
+ position: absolute;
+ bottom:0;
+ left:0;
+ color:#eee;
+ background-color: rgba(0,0,0,0.5);
+ width:100%;
+ padding:0.5em;
+ font-size: 0.8em;
+}
+
+.vidItems video{
+ width: 100%;
+}
+
+
+.videoView{
+ background-color:rgba(0,0,0,0.8);
+ width:100%;
+ height:100%;
+ top:0;
+ left:0;
+ position: fixed;
+ z-index: 900;
+ display: none;
+
+}
+
+.vidViewX{
+background-color: transparent;
+border:0;
+text-decoration: underline;
+color:#fff;
+position: absolute;
+top:20px;
+right: 20px;
+
+}
+
+.vidBgClose{
+ width: 100%;
+ height: 100%;
+ position:absolute;
+ top:0;
+ left:0;
+}
+
+.vidViewWrap{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+width: 45%;
+}
+
+.viewVid{
+ width: 100%;
+}
+
+.viewVid video{
+ width: 100%;
+ height: auto;
+}
+
+.vidViewTxt{
+ color:#fff;
+ text-align: center;
+}
+
+
+
+#video2{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--bg-color);
+  margin-top: 0.5em;
+  border-radius: 0.5em;
+}
+#video2 .vidWrap2{
+padding:2em;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.vidItems2{
+ width:48%;
+ height:300px;
+ border-radius: 0.5em;
+ box-sizing: border-box;
+ background-color:#fff;
+ overflow: hidden;
+ position: relative;
+ margin-bottom: 1em;
+}
+
+.vidItems2 figure{
+ height: 300px;
+ overflow: hidden;
+}
+
+
+.vidItems2 figcaption{
+ position: absolute;
+ bottom:0;
+ left:0;
+ color:#eee;
+ background-color: rgba(0,0,0,0.5);
+ width:100%;
+ padding:0.5em;
+ font-size: 0.8em;
+}
+
+.vidItems2 figure img{
+ width: 100%;
+}
+
+.vidKey{
+  display: none;
+}
+
+.videoView2{
+ background-color:rgba(0,0,0,0.8);
+ width:100%;
+ height:100%;
+ top:0;
+ left:0;
+ position: fixed;
+ z-index: 900;
+ display: none;
+
+}
+
+.vidViewX2{
+background-color: transparent;
+border:0;
+text-decoration: underline;
+color:#fff;
+position: absolute;
+top:20px;
+right: 20px;
+
+}
+
+.vidBgClose2{
+ width: 100%;
+ height: 100%;
+ position:absolute;
+ top:0;
+ left:0;
+}
+
+.vidViewWrap2{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+width: 45%;
+}
+
+.viewVid2{
+ width: 100%;
+}
+
+.viewVid2 video{
+ width: 100%;
+ height: auto;
+}
+
+.vidViewTxt2{
+ color:#fff;
+ text-align: center;
+}
+
