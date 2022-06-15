@@ -266,7 +266,6 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
     <script>
 
 
@@ -274,13 +273,11 @@
 $(document).ready(function(){
 
   $('.fade').slick({
-  dots: false,
   infinite: true,
-  autoplay:true,
-  autoplayspeed: 100,
-  fade: true,
-  cssEase: 'linear'
+  slidesToShow: 4,
+  slidesToScroll: 4
 });
+		
 
 $('.video').slick({
   dots: true,
